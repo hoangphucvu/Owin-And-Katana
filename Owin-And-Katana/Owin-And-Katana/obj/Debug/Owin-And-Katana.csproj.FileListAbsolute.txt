@@ -1,0 +1,11 @@
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Owin-And-Katana.dll.config
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Owin-And-Katana.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Owin-And-Katana.pdb
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Owin.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.xml
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\obj\Debug\Owin-And-Katana.csprojResolveAssemblyReference.cache
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\obj\Debug\Owin-And-Katana.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\obj\Debug\Owin-And-Katana.pdb
