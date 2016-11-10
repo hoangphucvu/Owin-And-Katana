@@ -15,7 +15,7 @@ namespace Owin_And_Katana.Modules
             Get["/nancy"] = x =>
             {
                 var env = Context.GetOwinEnvironment();
-                return "Your request from nancy: " + env["owin.RequestPath"];
+                return "Your request from nancy: " + env["owin.RequestPathBase"] + env["owin.RequestPath"];
             };
         }
     }

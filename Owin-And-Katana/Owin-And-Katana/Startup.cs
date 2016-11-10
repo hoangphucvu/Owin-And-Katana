@@ -1,4 +1,6 @@
 ﻿using Microsoft.Owin;
+using Nancy;
+using Nancy.Owin;
 using Owin;
 using Owin_And_Katana.Middleware;
 using System.Diagnostics;
@@ -43,7 +45,15 @@ namespace Owin_And_Katana
             //        Debug.WriteLine("Request took " + watch.ElapsedMilliseconds + " ms");
             //    }
             //});
-            app.UseNancy();
+
+            //if any request isn't nancy it's will skip this middleware
+            //app.Map("/nancy", mappedApp => { mappedApp.UseNancy(); });
+            //if request like http://localhost:18237/nancy/adas it's will
+            //not found the path and will pass to hello world method
+            app.UseNancy(config =>
+            {
+                config.PassThroughWhenStatusCodesAre(HttpStatusCode.NotFound);
+            });
             app.Use(async (ctx, next) =>
             {
                 await ctx.Response.WriteAsync("<html><head></head><body>Hello World</body></html>");
