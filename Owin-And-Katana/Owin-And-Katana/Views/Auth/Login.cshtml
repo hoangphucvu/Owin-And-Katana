@@ -1,0 +1,28 @@
+﻿@inherits System.Web.Mvc.WebViewPage<Owin_And_Katana.Models.LoginModel>
+@using System.Web.Mvc.Html
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <div>
+        @using (var form = Html.BeginForm())
+        {
+            <div>
+                @Html.TextBoxFor(x => x.Username, new { @placeholder = "Username" })
+            </div>
+            <div>
+                @Html.TextBoxFor(x => x.Password, new { @placeholder = "Password" })
+            </div>
+            <input type="submit" value="Login" />
+        }
+    </div>
+</body>
+</html>
