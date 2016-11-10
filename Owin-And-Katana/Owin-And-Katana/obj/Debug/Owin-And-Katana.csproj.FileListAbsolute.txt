@@ -39,3 +39,7 @@ D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\System.
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\System.Web.WebPages.xml
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\System.Web.WebPages.Deployment.xml
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\System.Web.WebPages.Razor.xml
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.xml
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.Cookies.xml

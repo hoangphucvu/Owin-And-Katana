@@ -47,6 +47,12 @@ namespace Owin_And_Katana
             //    }
             //});
 
+            //setup path when using authorize attribute
+            app.UseCookieAuthentication(new Microsoft.Owin.Security.Cookies.CookieAuthenticationOptions
+            {
+                AuthenticationType = "ApplicationCookie",
+                LoginPath = new PathString("/Auth/Login")
+            });
             var setup = new HttpConfiguration();
             setup.MapHttpAttributeRoutes();
             app.UseWebApi(setup);
