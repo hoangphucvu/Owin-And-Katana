@@ -4,6 +4,7 @@ using Nancy.Owin;
 using Owin;
 using Owin_And_Katana.Middleware;
 using System.Diagnostics;
+using System.Web.Http;
 
 [assembly: OwinStartup(typeof(Owin_And_Katana.Startup))]
 
@@ -46,6 +47,9 @@ namespace Owin_And_Katana
             //    }
             //});
 
+            var setup = new HttpConfiguration();
+            setup.MapHttpAttributeRoutes();
+            app.UseWebApi(setup);
             //if any request isn't nancy it's will skip this middleware
             //app.Map("/nancy", mappedApp => { mappedApp.UseNancy(); });
             //if request like http://localhost:18237/nancy/adas it's will
