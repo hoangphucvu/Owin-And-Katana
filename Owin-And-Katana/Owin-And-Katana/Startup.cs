@@ -43,6 +43,7 @@ namespace Owin_And_Katana
             //        Debug.WriteLine("Request took " + watch.ElapsedMilliseconds + " ms");
             //    }
             //});
+            app.UseNancy();
             app.Use(async (ctx, next) =>
             {
                 await ctx.Response.WriteAsync("<html><head></head><body>Hello World</body></html>");

@@ -9,3 +9,7 @@ D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microso
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\obj\Debug\Owin-And-Katana.csprojResolveAssemblyReference.cache
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\obj\Debug\Owin-And-Katana.dll
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\obj\Debug\Owin-And-Katana.pdb
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Nancy.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Nancy.Owin.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Nancy.xml
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Nancy.Owin.xml
