@@ -1,7 +1,5 @@
 ﻿using Owin_And_Katana.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
@@ -31,6 +29,12 @@ namespace Owin_And_Katana.Controllers
                 HttpContext.GetOwinContext().Authentication.SignIn(identity);
             }
             return View(model);
+        }
+
+        public ActionResult Logout()
+        {
+            HttpContext.GetOwinContext().Authentication.SignOut();
+            return Redirect("/");
         }
     }
 }
