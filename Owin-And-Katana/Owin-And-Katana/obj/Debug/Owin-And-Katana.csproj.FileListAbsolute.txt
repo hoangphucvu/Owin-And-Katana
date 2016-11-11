@@ -43,3 +43,5 @@ D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microso
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.dll
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.xml
 D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Source Code\Study\Owin-And-Katana\Owin-And-Katana\Owin-And-Katana\bin\Microsoft.Owin.Security.Facebook.xml

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Owin;
+using Microsoft.Owin.Security.Facebook;
 using Nancy;
 using Nancy.Owin;
 using Owin;
@@ -56,6 +57,12 @@ namespace Owin_And_Katana
             var setup = new HttpConfiguration();
             setup.MapHttpAttributeRoutes();
             app.UseWebApi(setup);
+            app.UseFacebookAuthentication(new FacebookAuthenticationOptions
+            {
+                AppId = "333637260350676",
+                AppSecret = "3a9af5c153056ce7a4054395ea2528b4",
+                SignInAsAuthenticationType = "ApplicationCookie"
+            });
             //if any request isn't nancy it's will skip this middleware
             app.Map("/nancy", mappedApp => { mappedApp.UseNancy(); });
             //if request like http://localhost:18237/nancy/adas it's will

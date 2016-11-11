@@ -1,4 +1,5 @@
-﻿using Owin_And_Katana.Models;
+﻿using Microsoft.Owin.Security;
+using Owin_And_Katana.Models;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Web;
@@ -35,6 +36,15 @@ namespace Owin_And_Katana.Controllers
         {
             HttpContext.GetOwinContext().Authentication.SignOut();
             return Redirect("/");
+        }
+
+        public ActionResult LoginFacebook()
+        {
+            HttpContext.GetOwinContext().Authentication.Challenge(new AuthenticationProperties
+            {
+                RedirectUri = "/Secrect/Index"
+            }, "Facebook");
+            return new HttpUnauthorizedResult();
         }
     }
 }
